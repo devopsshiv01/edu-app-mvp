@@ -1,6 +1,15 @@
 pip install -r requirements.txt
 
-##example
 Flask==2.0.1
 Flask-SQLAlchemy==2.5.1
+Flask-Bcrypt==0.7.1
 Flask-JWT-Extended==4.3.1
+pytest==6.2.4
+
+Django==4.1.2
+djangorestframework==3.13.1
+pytest-django==4.5.2
+
+git add requirements.txt
+git commit -m "Add requirements.txt file"
+git push origin main
